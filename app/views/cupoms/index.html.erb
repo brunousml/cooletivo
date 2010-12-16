@@ -1,0 +1,10 @@
+	<br />
+	<h1>Lista de cupons cadastrados</h1>
+	<% for cp in @cupom %>
+	
+	
+	<li><a href="/cupoms/<%= cp.id%>"><%= cp.id%></a> | <%= link_to "Editar", "/cupoms/#{cp.id}/edit"  %> 
+	
+	<% end %>
+	<br />
+<%= link_to "Novo", "/cupoms/new"  %> 

@@ -1,0 +1,30 @@
+	<p>
+	 <b>ID fonecedor: </b><%= @cupom.id_fonecedor %>
+	</p>
+	
+	<p>
+	 <b>ID cliente: </b><%= @cupom.id_cliente %>
+	</p>
+		
+	<p>
+	 <b>Validade: </b><%= @cupom.validade %>
+	</p>
+		
+	<p>
+	 <b>Valor de Compra: </b><%= @cupom.valor_de_compra %>
+	</p>
+
+		
+	<p>
+	 <b>Valor de Credito: </b><%= @cupom.valor_de_credito %>
+	</p>
+
+		
+	<p>
+	 <b>Forma de Pagamento: </b><%= @cupom.forma_de_pagamento %>
+	</p>
+
+<%= link_to "Voltar", "/cupoms"  %> | 
+<%= link_to "Novo", "/cupoms/new"  %> |
+<%= link_to "Editar", "/cupoms/#{@cupom.id}/edit"  %> 
+

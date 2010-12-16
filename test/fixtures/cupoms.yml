@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id_fonecedor: 1
+  id_cliente: 1
+  validade: 2010-12-07
+  valor_de_compra: 1
+  valor_de_credito: 1
+  forma_de_pagamento: MyString
+
+two:
+  id_fonecedor: 1
+  id_cliente: 1
+  validade: 2010-12-07
+  valor_de_compra: 1
+  valor_de_credito: 1
+  forma_de_pagamento: MyString

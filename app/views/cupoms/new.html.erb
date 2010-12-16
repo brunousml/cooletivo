@@ -1,0 +1,13 @@
+<% form_for (:cupom, @cupom, :url=>{:action=>'create'}) do |f| %>
+<%= f.error_messages %>
+
+	<p><b>Fornecedor: </b> <%= f.text_field :id_fonecedor %></p>
+	<p><b>Cliente: </b> <%= f.text_field :id_cliente %></p>
+	<p><b>Validade: </b> <%= f.date_select :validade   %></p>
+	<p><b>Valor de compra: </b> <%= f.text_field :valor_de_compra %></p>
+	<p><b>Valor de credito: </b> <%= f.text_field :valor_de_credito %></p>
+	<p><b>Forma de Pagamento: </b> <%= f.text_field :forma_de_pagamento %></p>
+	<p><%= f.submit "Salvar" %></p>
+<% end %>
+ 
+<%= link_to "Todos", "/cupoms"  %>

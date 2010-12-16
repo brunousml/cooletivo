@@ -1,0 +1,53 @@
+<p>
+  <b>Nome:</b>
+  <%=h @cliente.nome %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @cliente.email %>
+</p>
+
+<p>
+  <b>Data nascimento:</b>
+  <%=h @cliente.data_nascimento %>
+</p>
+
+<p>
+  <b>Sexo:</b>
+  <%=h @cliente.sexo %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%=h @cliente.cidade %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%=h @cliente.endereco %>
+</p>
+
+<p>
+  <b>Bairro:</b>
+  <%=h @cliente.bairro %>
+</p>
+
+<p>
+  <b>Numero:</b>
+  <%=h @cliente.numero %>
+</p>
+
+<p>
+  <b>Cep:</b>
+  <%=h @cliente.cep %>
+</p>
+
+<p>
+  <b>Estado:</b>
+  <%=h @cliente.estado %>
+</p>
+
+
+<%= link_to 'Edit', edit_cliente_path(@cliente) %> |
+<%= link_to 'Back', clientes_path %>
